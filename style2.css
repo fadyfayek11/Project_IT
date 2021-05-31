@@ -1,0 +1,489 @@
+@charset "utf-8";
+/*fonts*/
+@font-face
+{
+	src: url(fonts/Nosifer-Regular.ttf);
+	font-family: nos;
+}
+@font-face
+{
+	src: url(fonts/AmaticSC-Regular.ttf);
+	font-family: ff;
+}
+@font-face
+{
+	src: url(fonts/Changa-Regular.ttf);
+	font-family: req;
+}
+@font-face
+{
+	src: url(fonts/Inconsolata-Regular.ttf);
+	font-family: nice;
+}
+@font-face
+{
+	src: url(fonts/LuckiestGuy-Regular.ttf);
+	font-family: bol;
+}
+@font-face
+{
+	src: url(fonts/Orbitron-Regular.ttf);
+	font-family: reqq;
+}
+@font-face
+{
+	src: url(fonts/Philosopher-Regular.ttf);
+	font-family: ni;
+}
+@font-face
+{
+	src: url(fonts/RobotoSlab-Light.ttf);
+	font-family: simple;
+}
+@font-face
+{
+	src: url(fonts/Satisfy-Regular.ttf);
+	font-family: mlz;
+}
+@font-face
+{
+	src: url(fonts/Underdog-Regular.ttf);
+	font-family: zig;
+}
+/*fonts*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+    background-color: black;
+    height: 1000px;
+    background-image: url(imges/44.png);
+    box-shadow: 0 -10px 10px lightslategray;
+}
+
+.contaner
+{
+     width: 1000px;
+     margin: auto;
+}
+.contaner2
+{
+    width: 600px;
+    margin: auto;
+}
+.hh
+{
+   background-image: url(sun.jpg);
+   height: 600px;
+   background-size: cover;
+   
+}
+.contaner .navbar h2
+{
+	color:#00fff5;
+	float: right;
+	text-transform: uppercase;
+	font-family:reqq;
+	letter-spacing: 3px;
+	margin-top: 10px;
+}
+
+.contaner .navbar span
+{
+	
+	color: lavender;
+	font-family:reqq;
+	letter-spacing: 3pxك
+}
+
+.contaner .nav input 
+{
+        width: 400px;
+        background-color: rgba(94, 19, 19, 0.1);
+        height: 40px;
+        border: 2px solid #E91E63;
+        padding-left: 10px;
+        border-radius: 5%;
+        transition: 1s;
+        font-family: ni;
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 120px;
+}
+.contaner .nav input:hover
+{
+    background: white;
+	opacity: .9;
+	transition: ease-in-out .5s;
+}
+.fa-search:before {
+    content: "\f002";
+    font-size: 22px;
+	margin-left: 10px;
+	color:  #00fff5;
+}
+.hh .contaner .contaner2 .box .date
+{
+    width: 110px;
+    height: 80px;
+    background-color: lightslategrey;
+    text-align: center;
+    margin-top: 82px;
+    opacity: .9;
+    float:right;
+    border-radius: 5px;
+}
+.hh .contaner .contaner2 .box .date h2
+{
+    color:#00fff5;color:#00fff5;
+    font-family:reqq;
+    font-size: 28px; 
+    display: inline;  
+   
+}
+.hh .contaner .contaner2 .box .date span
+{
+    color: lavender;
+	font-family:reqq;
+    letter-spacing: 3px;
+    display: block;
+    font-size: 18px;
+}
+.hh .contaner .contaner2 .box .info
+{
+    widows: 500px;
+    height: 80;
+    background-color: lightslategrey;
+    float:right;
+    text-align: center; 
+    margin-top: -79px;
+    margin-right: 116px;
+    opacity: .9;
+    border-radius: 5px;
+}
+.hh .contaner .contaner2 .box .info h2
+{
+    color:#00fff5;color:#00fff5;
+    font-family:req;
+    font-size: 28px; 
+}
+.hh .contaner .contaner2 .box .info p
+{
+    color: white;
+    font-family: nice;
+    
+}
+.hh .contaner .contaner2 .box .info p span
+{
+    color: red;
+    font-family: nice;
+    opacity: .9;
+
+}
+.hh .contaner .contaner2 .box .icon
+{
+    width: 110px;
+    height: 80px;
+    background-color: lightslategrey;
+    text-align: center;
+    margin-top: -80px;
+    opacity: .8;
+    float: left;
+    margin-left: -116px;
+    border-radius: 5px;
+}
+.fa-eye:before {
+    content: "\f06e";
+    font-size: 54px;
+    color: gainsboro;
+}
+.hh .contaner .contaner2 .box .icon span
+{
+    font-family: req;
+    color: bisque;
+    display: block;
+}
+.contaner2 .box2 
+{
+    width: 700px;
+    margin: auto;
+    background-color:#7575758f;
+    height: 3197px;;
+    margin-top: -350px;
+    margin-left: -103px;
+    box-shadow: -10px -20px 15px rgb(22, 21, 21) ;
+    border-radius: 5px;
+}
+
+.contaner2 .box2 .cont .pic img
+{
+  
+   float:right;
+   margin: 15px;
+   border-radius: 5px;
+   box-shadow: 5px 5px 25px lightblue;
+}
+.contaner2 .box2 .cont .pic table
+{
+    width:100%;
+    border: 2px solid white;
+    border-radius:3px;
+     
+    
+}
+
+.contaner2 .box2 .cont .pic table th
+{
+    font-family: req;
+    border-right:1px solid white; 
+    border-bottom:1px solid white; 
+    text-align: center;
+    font-size: 14px;
+    color: #00fff5;
+    padding: 10px;
+    border-radius:3px;
+}
+.contaner2 .box2 .cont .pic table td
+{
+    border-right:1px solid white; 
+    border-bottom:1px solid white; 
+    color: aliceblue;
+    font-family: nice;
+    font-size: 14px;
+    padding: 6px;
+    border-radius:3px;
+}
+.contaner2 .box2 .cont .add 
+{
+    width: 110px;
+    height: 30px;
+    border-radius: 3px; 
+    background-color: dimgrey;
+    margin: 15px;
+    text-align: center;
+    
+}
+.contaner2 .box2 .cont .add .a
+{
+    font-family: ni;
+    color: antiquewhite;
+
+}
+.contaner2 .box2 .cont .add img 
+{
+    height: 177px;
+    margin-top: 72px;
+    width: 222px
+}
+.contaner2 .box2 .cont .pic .diss
+{
+  float: right;
+  width: 450px;
+  height: 1000px;
+  text-align: center;
+}
+.contaner2 .box2 .cont .pic .diss h3
+{
+    color: yellow;
+    font-size: 30px;
+    font-family: req;
+}
+.contaner2 .box2 .cont .pic .diss p
+{
+    color: white;
+    line-height: 2;
+    font-size: 24px;
+    font-family: nice;
+}
+.contaner2 .box2 .pho
+{
+  text-align: center; 
+  float: right; 
+}
+.contaner2 .box2 .pho h3
+{
+   
+    margin-top: -150px;
+}
+.contaner2 .box2 .pho video
+{
+    margin-top: -290px;
+    margin-left: 50px;
+}
+.contaner2 .box2 .cont .pic .pho img
+{
+    margin-right: 80px;
+}
+
+.contaner .box2 .do 
+{
+    width: 900px;
+    height: 100px;
+    text-align: left;
+    border-top: 1.5px solid #bbdefb;
+    border-radius:3px; 
+    background-color: #2a2b3178;
+    margin-bottom: 30px;
+    margin-top: 137px;
+}
+
+.contaner .box2 .do h3
+{
+    color: #00fff5;
+    font-family: zig;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    border-bottom: 1px dotted black;
+}
+.contaner .box2 .do button
+{
+    margin-left: 200px;
+    margin-top:5px; 
+	border:1px #fff solid;
+	width:300px;
+    padding:5px;
+	border-radius:10px;
+    transition:all .5s ease-in-out;	
+    background-color: antiquewhite;
+}
+.contaner .box2 .do button:hover
+{
+    background:rgb(30, 102, 210);
+	border:1px solid rgb(30, 110, 230);
+}
+.contaner .box2 .do button a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+.cont
+{
+
+	background-size: cover;
+	overflow: hidden;
+	
+}
+
+.cont  .info img
+{
+	margin-top:20px; 
+	
+}
+
+	
+
+
+.cont .info,.cont form{width: 50%;float: left;}
+.cont form label
+{
+	display: block;
+	color: white;
+    margin:10px 0 ;
+    font-family: req;
+    font-size: 24px;
+}
+
+
+
+.cont form textarea
+{
+	background-color: #4b5557;
+	color: #ffff;
+	padding: 10px;
+	border: 0;
+	width: 80%;
+	margin-bottom: 10px;
+	height: 300px;
+	border-radius:3px; 
+}
+.cont form input[type="submit"]
+{
+	background-color: #4b5557;
+	color: #ffff;
+	padding: 10px;
+	border: 0;
+	width: 30%;
+	margin-bottom: 20px;
+    border-radius:3px; 
+   font-family: ni;
+   font-size: 15px;
+}
+
+
+.fot
+{
+	background-image: url(imges/12.png);
+	padding: 20px;
+	text-align: center;
+	overflow: hidden;
+	background-size: cover;
+	height: 300px;
+}
+.fot span
+{
+	margin-right: 40px;
+    float: right;
+    font-family: nice;
+    color:white;
+	margin-top: 55px;
+}
+.hh .contaner .navbar .ico
+{
+    float: left;
+    margin-top: 21px;
+    margin-left: 13px;
+    font-size: 17px;
+}
+
+.hh .contaner .navbar .ico a
+{
+	text-decoration: none;
+	color: white;
+}
+.hh .contaner .navbar .ico a:hover
+{
+	color:rgb(30, 102, 210);
+}
+.fot .ico
+{
+	float: left;
+	
+	margin-top: 55px;
+	margin-left: 38px;
+	font-size: 28px;
+}
+
+.fot .ico a
+{
+	text-decoration: none;
+	color: white;
+}
+.fot .ico a:hover
+{
+	color:rgb(30, 102, 210);
+}
+.scroll{
+	position:fixed;
+	z-index:9999;
+	background-color:rgb(24, 207, 116);
+	opacity:0.7;
+	right:20px;
+	bottom:20px;
+	padding:10px;
+	width: 40px;
+	border-radius:25px;
+	text-align: center;
+	font-size: 24px;
+
+}
+.scroll:hover{
+	background-color: rgb(30, 102, 210);
+	opacity:1;
+}
+
